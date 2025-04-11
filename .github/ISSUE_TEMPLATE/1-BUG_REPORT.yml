@@ -4,8 +4,10 @@ labels: [
   "Bug"
 ]
 body:
-  - type: markdown
+  - type: textarea
+    id: description
     attributes:
+      label: "Description"
       value: |
         Define the problem.
 
