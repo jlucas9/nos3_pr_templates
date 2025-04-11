@@ -4,7 +4,7 @@ labels: [
   "Bug"
 ]
 body:
-  - type: markdown
+  - type: textarea
     id: description
     attributes:
       label: "Description"
@@ -29,7 +29,7 @@ body:
     id: os
     attributes:
       label: "OS"
-      description: What is the impacted environment ?
+      description: What is the impacted environment?
       multiple: true
       options:
         - Windows (Direct Clone)
