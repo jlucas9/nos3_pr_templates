@@ -4,10 +4,9 @@ labels: [
   "Bug"
 ]
 body:
-  - type: textarea
+  - type: markdown
     id: description
     attributes:
-      label: "Description"
       description: Please enter a detailed description of the bug.  Use the template below as necessary
       value: |
         Define the problem.
@@ -28,7 +27,6 @@ body:
   - type: dropdown
     id: os
     attributes:
-      label: "OS"
       description: What is the impacted environment?
       multiple: true
       options:
@@ -40,6 +38,7 @@ body:
         - Mac (Shared Folders)
     validations:
       required: false
+
   - type: markdown
     attributes:
       value: "Optional: Please apply any labels or types as necessary - leave blank for unknown."
