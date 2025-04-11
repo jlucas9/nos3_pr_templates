@@ -6,7 +6,6 @@ labels: [
 body:
   - type: markdown
     attributes:
-      description: Please enter a detailed description of the bug.  Use the template below as necessary
       value: |
         Define the problem.
 
