@@ -1,0 +1,18 @@
+name: "New Issue"
+description: Create a new ticket for a new request
+labels: [
+  "NewIssue"
+]
+body:
+  - type: markdown
+    attributes:
+      value: "Please add a short descriptive title to describe the issue."
+  - type: textarea
+    id: summary
+    attributes:
+      label: "Summary"
+      description: Describe the issue or request.
+      placeholder: Provide examples of the issue or request.
+    validations:
+      required: true
+
