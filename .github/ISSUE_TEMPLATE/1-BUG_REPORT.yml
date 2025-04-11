@@ -5,7 +5,6 @@ labels: [
 ]
 body:
   - type: markdown
-    id: description
     attributes:
       description: Please enter a detailed description of the bug.  Use the template below as necessary
       value: |
@@ -20,13 +19,13 @@ body:
 
         Add logs or screenshots as desired.
                 
-      render: bash  
     validations:
       required: true
   
   - type: dropdown
     id: os
     attributes:
+      label: "OS"
       description: What is the impacted environment?
       multiple: true
       options:
